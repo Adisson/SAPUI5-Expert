@@ -9,11 +9,16 @@
                 data-sap-ui-libs="sap.m"
                 data-sap-ui-compatVersion="edge"
                 data-sap-ui-async="true"
-                data-sap-ui-onInit="module:logaligroup/sapui5/index"
+                data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
                 data-sap-ui-resourceroots='{
                     "logaligroup.sapui5":"./"
                     }'>
         </script>
     </head>
-    <body id="content" class="sapUiBody"></body>
+    <body id="content" class="sapUiBody">
+        <div data-sap-ui-component
+            data-name="logaligroup.sapui5">
+            
+        </div>
+    </body>
 </html>
